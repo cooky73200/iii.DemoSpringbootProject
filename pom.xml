@@ -18,8 +18,8 @@
 	<name>DemoSpringbootProject</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-	<!-- 	修改jar包的方法 在properties裡面修改版本 -->
-<!-- 		<mysql.version>5.1.43</mysql.version> -->
+		<!-- 修改jar包的方法 在properties裡面修改版本 -->
+		<!-- <mysql.version>5.1.43</mysql.version> -->
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
@@ -89,6 +89,31 @@
 			<scope>provided</scope>
 		</dependency>
 		<!-- /jsp需要的函式庫 -->
+		<!-- 資料庫相關函式庫 -->
+		<!-- 設置Spring Data JPA的Dependency -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<!-- 設置MS SQL Server的Dependency -->
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- 設置MySQL的Dependency -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- /資料庫相關函式庫 -->
+
+
+
+
+
 	</dependencies>
 
 	<build>
