@@ -9,6 +9,8 @@
 		<version>2.5.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+
+
 	<groupId>DemoSpringbootProject</groupId>
 	<artifactId>DemoSpringbootProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -16,6 +18,8 @@
 	<name>DemoSpringbootProject</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+	<!-- 	修改jar包的方法 在properties裡面修改版本 -->
+<!-- 		<mysql.version>5.1.43</mysql.version> -->
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
@@ -85,8 +89,6 @@
 			<scope>provided</scope>
 		</dependency>
 		<!-- /jsp需要的函式庫 -->
-
-
 	</dependencies>
 
 	<build>
