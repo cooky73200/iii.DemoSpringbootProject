@@ -109,6 +109,12 @@
 			<scope>runtime</scope>
 		</dependency>
 		<!-- /資料庫相關函式庫 -->
+		<!-- 安全性相關函式庫 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<!-- /安全性相關函式庫 -->
 
 
 
